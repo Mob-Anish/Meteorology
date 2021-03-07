@@ -44,7 +44,7 @@ export const renderResults = (data) => {
         </section>
         <div class="current">
             <div class="temp">${Math.round(data.temp)}<span>°c</span></div>
-            <img src="./public/img/${data.icon}.png" class="image"><div class="weather">${data.description}</div>
+            <img src="./img/${data.icon}.png" class="image"><div class="weather">${data.description}</div>
             <div class="High-Low">${Math.round(data.temp_maxi)}°c / ${Math.round(data.temp_mini)}°c</div>
             <div class="humidity">Humidity : ${data.humidity}%</div>
         </div>
